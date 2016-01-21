@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Giulia Schelm - Arbeitskreis</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+    <link rel="shortcut icon" href="favicon.ico">
+		<link type="text/css" rel="stylesheet" href="Css/style_wrapper-neu.css" media="all">
+		<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans|PT+Sans|Montserrat' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="Scripts/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.masonry.min.js"></script>
+		<script type="text/javascript" src="Scripts/infotext.js"></script>
+	
+    <script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	
+	});
+
+});
+</script>
+    
+    
+    </head>
+	
+	<body>
+	
+		
+        <div id="header-schwarz">
+			<div id="leftcolumn">
+				<a class="cursor-p" href="index.html">giulia schelm	</a>                
+                </div>
+            <div id="middlecolumn">
+				<a class="cursor-p" href="contact.html">contact</a>			
+                </div>
+			<div id="middlecolumn2">
+				<a class="cursor-l" href="afterhours.html">previous project</a>		
+                </div>
+			<div id="rightcolumn">
+				<a class="cursor-r" href="hohoho.html">next project</a>		
+                </div>
+		</div>
+        
+         <div id="back-top">
+    <a href="#backtop"><img src="navi/backtotop.png"></a>
+    </div>
+        
+        <div id="wrapper">
+		
+               <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_index_b.jpg"><span></span></li>
+			   <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_07.jpg"><span></span></li>
+               <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_08.jpg"><span></span></li>
+			   <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_11.jpg"><span></span></li>
+               <li> <img class="picture picturehoch" src="Bilder/Arbeitskreis/ak_web_suckitup.gif"><span></span></li>
+               <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_14.jpg"><span></span></li>
+			   <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_16.jpg"><span></span></li>
+               <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_19.jpg"><span></span></li>
+			   <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_39.jpg"><span></span></li>
+			   <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_42.jpg"><span></span></li>
+               <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_44.jpg"><span></span></li>
+               <li> <img class="picture picturehoch" src="Bilder/Arbeitskreis/verschieben.gif"><span></span></li>
+			   <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_48.jpg"><span></span></li>
+               <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_56.jpg"><span></span></li>
+			   <li> <img class="picture picturequer" src="Bilder/Arbeitskreis/ak_web_202.jpg"><span></span></li>
+              
+        </div>
+       
+       
+       <a class="infobutton">Info</a>
+       
+       <div class="infotext">
+       <a class="info-close"><img src="navi/schliessen.png"></a>
+       
+       <p> Der Arbeitskreis <br>
+       <br>
+<i>Der Arbeitskreis</i> is a project created by a group of five students from the graphic design class of Prof. Fons Hickmann at the University of Arts Berlin.<br>
+This idea of forming a work group or "work-circle" (literal translation of "Arbeitskreis") arose from our main assignment. Our class was assigned the theme of "circles." This, combined with the problem of lacking the essential objectivity on one's own creative work, gave birth to the "Arbeitskreis," or AK for short.
+The concept of the AK aims to break entrenched habits and enable all participants to benefit from the knowledge and skills from eachother. Unlike a classic work group, participants are able to contribute their own individual ideas and as a result everyone puts in an equal part in the design process. The outcome of one person's input, which isn't always fully developed, works as the starting point for the next person.
+The final product of this two month experiment is a book that consists of four parts. Each documents and analyzes a different method of working together and illustrates the process of <i>Der Arbeitskreis</i>. <br>
+<br>
+In collaboration with <a href="http://www.denisyilmaz.de/"target="_blank" a class="cursor-p"><i>Denis Yilmaz</i></a>, Idan Sher,<a href="http://www.peter-bruecker.de/"target="_blank" a class="cursor-p"> <i>Peter Brücker</i></a> and Vera Kellner.
+
+</p>       
+</div>
+
+
+
+ <script> 
+ 
+ 
+ $(function(){    
+    
+$("#wrapper img").click(function(){					      
+					        $('html, body').animate({
+                                scrollTop: $(this).parent().next().position().top -100
+                            }, 400)
+ 
+					    });
+    
+})
+
+   </script>    
+</body>
+</html>

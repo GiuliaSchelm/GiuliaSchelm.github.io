@@ -1,0 +1,193 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family:'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 140%;
+	font-weight:normal ;
+	letter-spacing: 1px;
+}
+
+
+#header {
+	font-size: 15px;
+    margin: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    position:fixed !important;
+    width: 90%;
+	top: 0px;
+    z-index: 1;
+
+
+}
+   
+   
+.nivoSlider {
+    position:relative;
+    background:url(images/loading.gif) no-repeat 50% 50%;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
+
+ 
+
+#leftcolumn {
+    float: left;
+	text-align: left;
+    position: relative;
+    width: 25%;
+}
+#middlecolumn {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 25%;
+}
+#middlecolumn2 {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 25%;
+}
+#rightcolumn {
+    float: left;
+    position: relative;
+    text-align: right;
+    width: 25%;
+}
+ 
+a, a:link, a:visited {
+	color: #000000;
+	text-decoration: none;
+	cursor:crosshair;
+	font-weight: ;
+}
+a:hover, a:active {
+	/*color: #FF6600;*/
+	text-decoration:underline;
+}
+
+h1 {
+	font-family: arial, "Arial Bold";
+	font-size: 15px;
+	line-height: 21px;
+	font-weight: normal;
+	letter-spacing: 1p;
+	color: #000000;
+	cursor: default;
+	text-align: center;	
+	position: inherit;
+}
+
+
+strong {
+	font-weight: bold;
+}
+
+hr {
+	width: 100%;
+	height: 1px;
+	margin: 5px 0 15px;
+	color: #d9d9d9;
+	background: #d9d9d9;
+	border: 0px;
+}
+
+img {
+	border: 0;
+}
+
+
+
+#backbutton {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+
+/* Masonry */
+.item {
+	float:left;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.item img {
+	width: 100%;
+	margin-bottom: -3px;
+	
+}
+
+.item p {
+	margin: 5px 0 0;
+}
+
+.item.text {
+	text-align:left;
+	background: ;
+	font-weight: bold;
+}
+
+.item.text2 {
+	text-align:center;
+	background:;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+	margin: 0px 0 0;
+	margin-bottom: 15px;
+}
+
+.item.text p {
+	padding: 5px 15px 15px;
+ 	
+}
+
+
+
+
+/* # für id; .für class
+
+ gallerie ?
+
+#project_imagegallery {
+position:relative;
+text-align:left;
+margin-bottom: 50px;
+display: block;
+}
+#project_imagegallery a {
+text-decoration:none;
+}
+.project_image {
+margin: 0px;
+width: 100%;
+}
+.project_image:hover{
+margin: -1px;
+border: 1px dotted;
+}
+#numbering {
+display:inline-block;
+margin: 0px 15px 0px 0px;
+font-size: 11px;
+letter-spacing: -1px;
+}
+#caption {
+margin: -2px 0px 3px 0px;
+font-size: 10px;
+line-height: 13px;
+height: 15px;
+} 
+
+*/

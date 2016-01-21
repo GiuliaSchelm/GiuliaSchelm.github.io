@@ -1,0 +1,358 @@
+html,body{
+
+
+
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family:'Montserrat', sans-serif;
+	font-size: 12px;
+	line-height: 140%;
+	font-weight:normal ;
+	letter-spacing: 1px;
+	color:#FFF;
+	background:#000;
+	
+}
+
+
+
+#header-schwarz {
+	font-size: 12px;
+    padding: 20px;
+	padding-bottom: 27px;
+   	left:3%;
+	background:#000;
+    position:fixed;
+    width: 90%;
+	top: 0px;
+    z-index: 100000;
+	color:#FFF;
+
+}
+
+
+#leftcolumn {
+    float: left;
+	text-align: left;
+    position: relative;
+    width: 25%;
+}
+
+#middlecolumn {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 25%;
+}
+
+#middlecolumn2 {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 25%;
+
+}
+
+#rightcolumn {
+    float: left;
+    position: relative;
+    text-align: right;
+    width: 25%;	
+}
+
+
+
+
+
+
+.cursor-p {
+	cursor: url("../navi/cursor_plus.png"), crosshair;
+
+}
+
+.cursor-pw {
+	cursor: url("../navi/cursor_plus-w.png"), crosshair;
+
+}
+
+
+.cursor-l {
+	cursor: url("../navi/cursor_left.png"), crosshair;
+
+}
+
+.cursor-r {
+	cursor: url("../navi/cursor_right.png"), crosshair;
+
+}
+
+.cursor-b {
+	cursor: url("../navi/cursor_back.png"), crosshair;
+
+}
+
+.cursor-w {
+	cursor: url("../navi/cursor_work.png"), crosshair;
+
+}
+
+
+
+
+a, a:link, a:visited {
+	color:#FFF;
+	text-decoration: none;
+	
+
+}
+
+a:hover, a:active {
+	/*color: #FF6600;*/
+	text-decoration:none;
+
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+
+hr {
+	width: 100%;
+	height: 1px;
+	margin: 5px 0 15px;
+	color: #d9d9d9;
+	background: #d9d9d9;
+	border: 0px;
+}
+
+
+
+img {
+	border: 0;
+}
+
+
+.textcontainer {
+	position:relative;
+	margin: 0 auto;
+	width: 950;
+
+}
+
+.picture {
+	position:relative;
+	display:block;
+	margin: 0 auto 80px auto;
+}
+
+.picturequer {
+	height:auto;
+	width:85%;
+	max-width:950px;
+
+}
+
+.picturehoch {
+	height:80%;
+	width:auto;
+	max-height: 1430px;
+	min-height:405px;
+}
+
+
+
+#wrapper {
+
+	margin:  auto;
+	margin-top: 180px;
+    width: 60%;
+	text-align:center;
+	height:100%;
+
+}
+
+
+.picturex {
+	width: 100%;
+	padding-bottom: 50px;
+	min-width: 625px;
+	
+}
+
+.picture-hoch {
+	max-width: 625px;
+	padding-bottom: 50px;
+	position:relative;
+}
+
+
+/* Masonry */
+.item {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.itemt{
+	text-align: center;
+}
+
+
+.item img {
+	width: 80%;
+	margin-bottom: -3px;
+	
+}
+
+.item p {
+	margin: 5px 0 0;
+}
+
+.item.text {
+	text-align:left;
+	background: ;
+	font-weight: bold;
+}
+
+
+.itemt.text2 {
+	position:relative;
+	text-align:center;
+	font-size:20px;
+	line-height: 28px;
+	align: center;
+    vertical-align: middle;
+	 min-height: 10em;
+	
+}
+
+.itemt.text3 {
+	position:relative;
+	text-align:center;
+	font-size:20px;
+	line-height: 28px;
+	align: center;
+	
+}
+.itemt.textklein {
+	position:relative;
+	text-align:center;
+	font-size:12px;
+	line-height: 20px;
+	align: center;
+	
+}
+
+
+.col1 {
+	width: 300px;
+}
+
+.col2 {
+	width: 625px;
+}
+
+.col3 {
+	width: 950px;
+}
+
+
+
+#back-top {
+	font-size: 12px;
+	position:fixed;
+	bottom: 15px;
+	left: 25px;
+	z-index: 10000;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+
+}
+
+
+.infobutton {
+	position: fixed;
+	background:#000;
+	right:3%;
+	bottom: 15px;
+	cursor: url("../navi/cursor_plus-w.png"), crosshair;
+}
+
+
+.infotext {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	width:100%;
+	background:#000;
+	padding: 20px 0;
+	text-align:left;
+	box-shadow: 0 5px 10px 5px #FFF;
+	-webkit-box-shadow: 0 5px 10px 5px #FFF;
+	-moz-box-shadow:  0 5px 10px 5px #FFF;
+	-o-box-shadow: 0 5px 10px 5px #FFF;
+}
+
+.infotext .info-close{
+	position: absolute;
+	top:0;
+	right: 0;
+	padding:20px;
+	cursor: pointer;
+}
+
+.infotext p{
+	padding: 25px 85px;
+
+	
+	}
+	
+	
+#text-subinfo {
+font-size: 10px;
+padding-left: 25px;
+
+
+}
+	
+
+#text-subinfo {
+font-size: 10px;
+padding-left: 25px;
+
+
+}
+
+#header a:hover, #header-schwarz a:hover,.infotext a:hover {
+	 padding-bottom: 1px;
+	 border-bottom: 1px solid #FFF;
+	 
+}
+
+.infobutton:hover {
+	 padding-bottom: 1px;
+	 border-bottom: 1px solid #FFF;
+}
+
+.info-close:hover{
+	border-bottom: 0px !important	}
+	
+
+
+a:hover img {
+	
+	text-decoration: none;
+	}
+	
+	::selection {
+	background: #FFF /* Safari */
+	}
+::-moz-selection {
+	background: #FFF; /* Firefox */
+}
+

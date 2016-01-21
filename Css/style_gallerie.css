@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.whitebody {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+
+body {
+    font-family: Arial,Helvetica,"sans-serif";
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: 0;
+    line-height: 17px;
+    margin: 0;
+    text-decoration: none;
+}
+
+#container {
+    height: auto;
+    max-width: 1200px;
+    min-width: 650px;
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: 0;
+	}
+
+#project_content {
+    overflow: visible;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+	
+#project_imagegallery {
+	position:relative;
+	text-align:left;
+	margin-bottom: 50px;
+	display: block;
+}
+#project_imagegallery a {
+	text-decoration:none;
+}
+.project_image {
+	margin: 0px;
+	width: 100%;
+}
+.project_image:hover{
+	margin: -1px;
+	border: 1px dotted;
+}
+#numbering {
+	display:inline-block;
+	margin: 0px 15px 0px 0px;
+	font-size: 11px;
+	letter-spacing: -1px;
+}
+#caption {
+	margin: -2px 0px 3px 0px;
+	font-size: 10px;
+	line-height: 13px;
+	height: 15px;
+} 
+
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Giulia Schelm - Skelmir</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+    <link rel="shortcut icon" href="favicon.ico">
+		<link type="text/css" rel="stylesheet" href="Css/style_wrapper-neu.css" media="all">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="Scripts/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.masonry.min.js"></script>
+		<script type="text/javascript" src="Scripts/infotext.js"></script>
+        
+        
+        
+	
+    <script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	
+	});
+
+});
+</script>
+    
+    
+    </head>
+	
+	<body>
+	
+		
+        <div id="header-schwarz">
+			<div id="leftcolumn">
+				<a class="cursor-p" href="index.html">giulia schelm	</a>                
+                </div>
+            <div id="middlecolumn">
+				<a class="cursor-p" href="contact.html">contact</a>			
+                </div>
+			<div id="middlecolumn2">
+				<a class="cursor-l" href="index.html">previous project</a>		
+                </div>
+			<div id="rightcolumn">
+				<a class="cursor-r" href="afterhours.html">next project</a>		
+                </div>
+		</div>
+        
+         <div id="back-top">
+    <a href="#backtop"><img src="navi/backtotop.png"></a>
+    </div>
+        
+        <div id="wrapper">
+			 	
+                <li><img class="picture picturequer" src="Bilder/skelmir/skelmir-A.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/skelmir/skelmir-g.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/skelmir/skelmir-words.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/skelmir/skelmir-mn.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/skelmir/skelmir-sentence-n.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/skelmir/skelmir-N.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/skelmir/skelmir-ani.gif"><span>Opentype feature substitutes glyphs with alternates according to theire neighboring letters</span></li>
+                <li><img class="picture picturequer" src="Bilder/skelmir/skelmir-specimen.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/skelmir/skelmir-process-05.jpg"><span>Work in progress</span></li>
+                
+				
+                
+        </div>
+       
+       
+       <a class="infobutton">Info</a>
+       
+       <div class="infotext">
+       <a class="info-close"><img src="navi/schliessen.png"></a>
+       
+       <p>Skelmir<br>
+       <br>
+Initial development of a contemporary geometric grotesk typeface with alternates that found its formal inspiration in the greek and cyrillic alphabet. The contradiction of round and edgy, break the expected similarity between related glyphs. It reveals its quirkyness on second sight and is best used for headlines and pull-quotes.
+The name of the font is derrived from Old Norse and describes the origin of the designer's last name “Schelm”. In High Old German this term was used to describe: rogue, prankster, joker.<br>
+<br>
+
+</p>       
+</div>
+
+
+
+ <script> 
+ 
+ 
+ $(function(){    
+    
+$("#wrapper img").click(function(){					      
+					        $('html, body').animate({
+                                scrollTop: $(this).parent().next().position().top -100
+                            }, 400)
+ 
+					    });
+    
+})
+
+   </script>    
+       
+       
+</body>
+</html>

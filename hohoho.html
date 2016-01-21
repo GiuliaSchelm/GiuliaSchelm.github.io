@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Giulia Schelm - Hohoho</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+    <link rel="shortcut icon" href="favicon.ico">
+		<link type="text/css" rel="stylesheet" href="Css/style_wrapper-neu.css" media="all">
+		<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans|PT+Sans|Montserrat' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="Scripts/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.masonry.min.js"></script>
+		<script type="text/javascript" src="Scripts/infotext.js"></script>
+	
+    <script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	
+	});
+
+});
+</script>
+    
+
+    </head>
+	
+	<body>
+	
+		
+  			<div id="header-schwarz">
+			<div id="leftcolumn">
+				<a class="cursor-p" href="index.html">giulia schelm	</a>                
+                </div>
+            <div id="middlecolumn">
+				<a class="cursor-p" href="contact.html">contact</a>			
+                </div>
+			<div id="middlecolumn2">
+				<a class="cursor-l" href="arbeitskreis.html">previous project</a>			
+                </div>
+			<div id="rightcolumn">
+				<a class="cursor-r" href="segmentation.html">next project</a>			
+                </div>
+		</div>
+        
+              <div id="back-top">
+    <a href="#backtop"><img src="navi/backtotop.png"></a>
+    </div>
+        
+        
+        <div id="wrapper">
+				
+                <li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_02.jpg"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_03.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_06.jpg"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_09.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_11.jpg"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_16.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_20.jpg"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_21.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_22.jpg"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_23.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/hohoho/hohoho_web_24.jpg"><span></span></li>
+                
+        </div>
+        
+        
+
+       <a class="infobutton">Info</a>
+       
+       <div class="infotext">
+       <a class="info-close"><img src="navi/schliessen.png"></a>
+       
+       <p> Ho Ho Ho <br>
+       <br>
+This book shows the photographic work of 13 students of the University of Arts Berlin. In the seminar of Cologne-based photographer Thekla Ehling we were assigned to do different photo series throughout the winter semester of 2012. The final serie was suppose to capture christmas.
+For the publication we selected the strongest pictures of each student and put them together under the titel <i> Ho Ho Ho</i>.<br>
+<br>
+Layout and concept in collaboration with Idan Sher,<a href="http://nora-heinisch.tumblr.com/"target="_blank" a class="cursor-p"> <i>Nora Heinisch </i></a>and <a href="http://www.isabelkronenberger.com/"target="_blank" a class="cursor-p"><i>Isabel Kronberger</i></a> <br>
+Featured Photographical works by Idan Sher, Isabel Kronberger, Giulia Schelm, Nora Heinisch, Stini Roehrs, Suzsanna Marinka, Silke Schwarz, Manuel Branz, Carolin Gießner, Alina Rudya, Vera Kellner, Daniel Heidt and Ana Halina Ringleb<br>
+<br>
+
+</p>       
+</div>
+      <script> 
+ 
+ 
+ $(function(){    
+    
+$("#wrapper img").click(function(){					      
+					        $('html, body').animate({
+                                scrollTop: $(this).parent().next().position().top -100
+                            }, 400)
+ 
+					    });
+    
+})
+
+   </script>   
+       
+</body>
+</html>

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family:'Montserrat', sans-serif;
+	font-size: 13px;
+	line-height: 140%;
+	font-weight:normal ;
+	letter-spacing: 1px;
+	color: #000;
+	background: #fff;
+}
+
+
+
+#teilnehmer li {
+	display: block;
+	width:300px;
+	height:300px;
+	float: left;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-size:100%;
+	color:transparent;
+	text-align:center;
+	line-height:100px;
+	transition: all 1s;
+	-webkit-transition:all 1s;
+}
+
+
+#teilnehmer li#oscar {
+	background-image:url(../Bilder/portraits_mar13_12.jpg);
+	
+	}
+	
+
+#teilnehmer li#oscar:hover{
+	background-image:none;
+	background-color:#000000;
+
+
+}
+	
+	
+#teilnehmer li#julie {
+	background-image:url(../Bilder/julie06.jpg);
+	
+	
+	}
+	
+#teilnehmer li#lukas {
+	background-image:url(../Bilder/portraits_mar13_lu3.jpg);
+	
+	}
+	
+	
+#teilnehmer li#julian {
+	background-image:url(../Bilder/portraits_mar13_15.jpg);
+	
+	}
+	
+	
+#teilnehmer li:hover {
+	color:#FFFFFF;
+
+}

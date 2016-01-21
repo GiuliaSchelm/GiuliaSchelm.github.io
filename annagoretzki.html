@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Giulia Schelm - Anna Goretzki</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+    <link rel="shortcut icon" href="favicon.ico">
+		<link type="text/css" rel="stylesheet" href="Css/style_wrapper-neu.css" media="all">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="Scripts/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.masonry.min.js"></script>
+		<script type="text/javascript" src="Scripts/infotext.js"></script>
+        
+        
+        
+	
+    <script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	
+	});
+
+});
+</script>
+    
+    
+    </head>
+	
+	<body>
+	
+		
+        <div id="header-schwarz">
+			<div id="leftcolumn">
+				<a class="cursor-p" href="index.html">giulia schelm	</a>                
+                </div>
+            <div id="middlecolumn">
+				<a class="cursor-p" href="contact.html">contact</a>			
+                </div>
+			<div id="middlecolumn2">
+				<a class="cursor-l" href="hide.html">previous project</a>		
+                </div>
+			<div id="rightcolumn">
+				<a class="cursor-r" href="skelmir.html">next project</a>		
+                </div>
+		</div>
+        
+         <div id="back-top">
+    <a href="#backtop"><img src="navi/backtotop.png"></a>
+    </div>
+        
+        <div id="wrapper">
+			 	
+				<li><img class="picture picturequer2" src="Bilder/annagoretzki/annagoretzki_browser-home.jpg"><span></span></li>
+                <li><img class="picture picturequer2" src="Bilder/annagoretzki/annagoretzki_browser-2.jpg"><span></span></li>
+                <li><img class="picture picturequer2" src="Bilder/annagoretzki/annagoretzki_browser-hoeren.gif"><span></span></li>
+				<li><img class="picture picturequer2" src="Bilder/annagoretzki/sehen.gif"><span></span></li>
+                <li><img class="picture picturequer2" src="Bilder/annagoretzki/annagoretzki_browser-11.jpg"><span></span></li>
+                
+                
+		        
+                
+                
+                
+        </div>
+       
+       
+       <a class="infobutton">Info</a>
+       
+       <div class="infotext">
+       <a class="info-close"><img src="navi/schliessen.png"></a>
+       
+       <p>Anna Marie Goretzki<br>
+       <br>
+Anna Goretzki is a Berlin based Journalist and Ethnologist. Her Articles are featured in the Süddeutsche Zeitung, Frankfurter Rundschau, on Deutschlandfunk, DRadio Wissen, Funkhaus Europa und DW Fernsehen (Latinoamérica). The website shows a selection of her work. <br><br>
+<a href="http://www.annagoretzki.de/"target="_blank" a class="cursor-pw">www.annagoretzki.de
+</a>
+
+</p>       
+</div>
+
+
+
+ <script> 
+ 
+ 
+ $(function(){    
+    
+$("#wrapper img").click(function(){					      
+					        $('html, body').animate({
+                                scrollTop: $(this).parent().next().position().top -100
+                            }, 400)
+ 
+					    });
+    
+})
+
+   </script>    
+       
+       
+</body>
+</html>

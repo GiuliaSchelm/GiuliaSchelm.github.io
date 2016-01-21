@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Giulia Schelm - Mlab</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+    <link rel="shortcut icon" href="favicon.ico">
+		<link type="text/css" rel="stylesheet" href="Css/style_wrapper-neu.css" media="all">
+		<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans|PT+Sans|Montserrat' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="Scripts/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.masonry.min.js"></script>
+		<script type="text/javascript" src="Scripts/infotext.js"></script>
+	
+    <script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	
+	});
+
+});
+</script>
+
+
+</head>
+	
+	<body>
+	
+		
+        <div id="header-schwarz">
+			<div id="leftcolumn">
+				<a class="cursor-p" href="index.html">giulia schelm	</a>                
+                </div>
+            <div id="middlecolumn">
+				<a class="cursor-p" href="contact.html">contact</a>			
+                </div>
+			<div id="middlecolumn2">
+				<a class="cursor-l" href="keyshirt.html">previous project</a>			
+                </div>
+			<div id="rightcolumn">
+				<a class="cursor-r" href="index.html">next project</a>			
+                </div>
+		</div>
+        
+             <div id="back-top">
+    <a href="#backtop"><img src="navi/backtotop.png"></a>
+    </div>
+        
+        <div id="wrapper">
+    			<li><img class="picture picturequer" src="Bilder/mlab/mlab_neu_82.jpg"><span></span></li>    
+                <li><img class="picture picturequer" src="Bilder/mlab/mlab_neu_80.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/mlab/mlab_neu_69.jpg"><span></span></li>    
+                <li><img class="picture picturequer" src="Bilder/mlab/mlab_neu_64.jpg"><span></span></li>     
+                <li><img class="picture picturequer" src="Bilder/mlab/mlab_neu_77.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/mlab/mlab.gif"><span></span></li> 
+                <li><img class="picture picturequer" src="Bilder/mlab/mlab_neu_81.jpg"><span></span></li>   
+                <li><img class="picture picturequer" src="Bilder/mlab/mlab_neu_66.jpg"><span></span></li>    
+        
+        </div>
+        
+        
+       <a class="infobutton">Info</a>
+       
+       <div class="infotext">
+       <a class="info-close"><img src="navi/schliessen.png"></a>
+       
+       <p> Mlab<br>
+     <br>
+Created the concept, realization and production of the yearly publication for the MLAB course. This year's Method Laboratory dealt with two main units: typography and grids. The book design consists of a leperello-like binding that is composed of two halves with each one presenting one unit. The book has to be flipped half way through to get to the second unit, therefore, the book has two covers. The information on the cover and the text on the accordion-like folded cardboard are silk-screen printed.<br>
+  <br>
+<br>
+In collaboration with <a href="http://www.lukaskueng.com/"target="_blank" a class="cursor-p"><i>Lukas Küng</i>.</a>
+       
+       
+       </div>  
+   
+   <script> 
+ 
+ 
+ $(function(){    
+    
+$("#wrapper img").click(function(){					      
+					        $('html, body').animate({
+                                scrollTop: $(this).parent().next().position().top -100
+                            }, 400)
+ 
+					    });
+    
+})
+
+   </script>         
+</body>
+</html>

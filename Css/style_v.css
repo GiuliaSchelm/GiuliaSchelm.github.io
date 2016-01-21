@@ -1,0 +1,327 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family:'Montserrat', sans-serif;
+	font-size: 12px;
+	line-height: 140%;
+	font-weight:normal ;
+	letter-spacing: 1px;
+	color: #000;
+	background: #fff;
+}
+
+
+#header {
+	font-size: 12px;
+    padding: 20px;
+	padding-bottom: 27px;
+   	left:3%;
+	background: #fff;
+    position:fixed;
+    width: 90%;
+	top: 0px;
+    z-index: 100000;
+	
+}
+
+
+
+#container {
+   margin: 0 auto;
+}   
+  
+
+#leftcolumn {
+    float: left;
+	text-align: left;
+    position: relative;
+    width: 25%;
+}
+
+#middlecolumn {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 25%;
+}
+
+#middlecolumn2 {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 25%;
+
+}
+
+#rightcolumn {
+    float: left;
+    position: relative;
+    text-align: right;
+    width: 25%;	
+}
+
+
+.cursor-p {
+	cursor: url("../navi/cursor_plus.png"), crosshair;
+
+}
+
+
+.cursor-l {
+	cursor: url("../navi/cursor_left.png"), crosshair;
+
+}
+
+.cursor-r {
+	cursor: url("../navi/cursor_right.png"), crosshair;
+
+}
+
+.cursor-b {
+	cursor: url("../navi/cursor_back.png"), crosshair;
+
+}
+
+.cursor-w {
+	cursor: url("../navi/cursor_work.png"), crosshair;
+
+}
+
+
+a, a:link  {
+	color: #000000;
+	text-decoration: none;
+	cursor: url("../navi/cursor_plus.png"), crosshair;
+	padding-bottom: 2px;
+}
+
+
+
+h1 {
+	font-family: arial, "Arial Bold";
+	font-size: 15px;
+	line-height: 21px;
+	font-weight: normal;
+	letter-spacing: 1p;
+	color: #000000;
+	cursor: default;
+	text-align: center;	
+	position: inherit;
+}
+
+
+strong {
+	font-weight: bold;
+}
+
+hr {
+	width: 100%;
+	height: 1px;
+	margin: 5px 0 15px;
+	color: #d9d9d9;
+	background: #d9d9d9;
+	border: 0px;
+}
+
+img {
+	border: 0;
+	text-decoration:none;
+}
+
+
+#wrapper {
+	width: 75%;
+	margin: 65px auto;
+    
+}
+
+
+
+#backbutton {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+
+/* Masonry */
+.item {
+	float: left;
+	margin-bottom: 35px; /*hier sonst 35px*/
+	text-align: center;
+}
+
+.item img {
+	width: 100%;
+	margin-bottom: -5px;
+	
+}
+
+.item p {
+	margin: 5px 0 0;
+}
+
+.item.text {
+	text-align:left;
+	background: ;
+	font-weight: bold;
+}
+
+.item.text2 {
+	text-align:center;
+	font-size: 20px;
+	line-height: 28px;
+	margin: 0px 0 0;
+	margin-top: 30%;
+	
+}
+
+.textcontainer {
+	position:relative;
+	margin: 0 auto;
+	width: 950;
+
+}
+
+
+
+.item.text p {
+	padding: 5px 15px 15px;
+ 	
+}
+
+.col1 {
+	width: 300px; /*hier sonst 300px*/
+}
+
+.col2 {
+	width: 635px; /*hier sonst 625px*/
+}
+
+.col3 {
+	width: 970px;/*hier sonst 950px*/
+}
+
+
+
+#back-top {
+	font-size: 12px;
+	position:fixed;
+	bottom: 15px;
+	left: 25px;
+	z-index: 10000;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+
+}
+
+
+#wrapper li{
+   display: block;
+   list-style: none;
+	list-style-type: none;
+	list-style-image: none;
+	text-align: center;
+	position: relative;    
+}
+
+
+#wrapper span {
+display: none;
+    padding-top:10px;
+  position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+#wrapper li:hover span{
+	display: block;
+	list-style-type: none;
+	list-style: none;
+}
+
+.infobutton {
+	position: fixed;
+	right:3%;
+	bottom: 15px;
+	cursor: url("../navi/cursor_plus.png"), crosshair;
+}
+
+.infotext {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	width:100%;
+	background:#fff;
+	padding: 20px 0;
+	text-align:left;
+	box-shadow: 0 5px 10px 5px #000;
+	-webkit-box-shadow: 0 5px 10px 5px #000;
+	-moz-box-shadow:  0 5px 10px 5px #000;
+	-o-box-shadow: 0 5px 10px 5px #000;
+}
+
+
+.infotext .info-close{
+	position: absolute;
+	top:0;
+	right: 0;
+	padding:20px;
+	cursor: pointer;
+}
+
+.infotext p{
+	padding: 25px 85px;
+	-moz-column-count:    2;
+	-webkit-column-count: 2;
+	column-count:         2;
+	-moz-column-gap:      7em;
+	-webkit-column-gap:   7em;
+	column-gap:           7em;
+	
+	}
+	
+	
+#text-subinfo {
+font-size: 10px;
+padding-left: 25px;
+}
+
+
+
+#header a:hover, #header-schwarz a:hover,.infotext a:hover {
+	 border-bottom: 1px solid #231f20;
+}
+
+.infobutton:hover {
+	 border-bottom: 1px solid #231f20;
+}
+
+.info-close:hover{
+	border-bottom: 0px !important	}
+
+
+
+..selection {
+background-color: black;
+}
+
+#collum1 {
+	width: 40%; /*hier sonst 300px*/
+	margin-left:20px;
+	float:left;
+}
+
+#collum2 {
+	width: 40%; /*hier sonst 300px*/
+	float:left;
+}
+
+::selection {
+	background: #000 /* Safari */
+	}
+::-moz-selection {
+	background: #000; /* Firefox */
+}
+
+

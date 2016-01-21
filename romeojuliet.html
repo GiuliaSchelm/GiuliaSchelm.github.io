@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Giulia Schelm - Romeo & Juliet</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+		<link rel="shortcut icon" href="favicon.ico">
+		<link type="text/css" rel="stylesheet" href="Css/style_wrapper-neu.css" media="all">
+		<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans|PT+Sans|Montserrat' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="Scripts/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.masonry.min.js"></script>
+		<script type="text/javascript" src="Scripts/infotext.js"></script>
+
+	    <script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
+});
+</script>
+
+</head>
+	
+	<body>
+	
+		
+        <div id="header-schwarz">
+			<div id="leftcolumn">
+				<a class="cursor-p" href="index.html">giulia schelm	</a>                
+                </div>
+            <div id="middlecolumn">
+				<a class="cursor-p" href="contact.html">contact</a>			
+                </div>
+			<div id="middlecolumn2">
+				<a class="cursor-l" href="segmentation.html">previous project</a>			
+                </div>
+			<div id="rightcolumn">
+				<a class="cursor-r" href="hartzIV-poster.html">next project</a>			
+                </div>
+		</div>
+        
+        
+             <div id="back-top">
+    <a href="#backtop"><img src="navi/backtotop.png"></a>
+    </div>
+        
+        <div id="wrapper">
+			
+                <li><img class="picture picturehoch" src="Bilder/romeojuliet/romeo_juliet_web__46.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/romeojuliet/romeo_juliet_web_48.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/romeojuliet/romeo_juliet_web_index.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/romeojuliet/romeo_juliet_web__22.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/romeojuliet/romeo_juliet_web_18.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/romeojuliet/romeo_juliet_web_28.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/romeojuliet/romeo_juliet_web_32.jpg"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/romeojuliet/romeo_juliet_web_44.jpg"><span></span></li>
+     		
+        </div>
+       
+     
+       <a class="infobutton">Info</a>
+       
+       <div class="infotext">
+       <a class="info-close"><img src="navi/schliessen.png"></a>
+       
+       <p> Romeo & Juliet – Email Correspondence 2010<br>
+     <br>
+One might say that emails have replaced letters. The Romeo and Juliet of the 21st century communicate digitally via email. 
+But what we really miss when clicking on an email is the lack of haptics, the smell, the anticipation and expectations that one used to have just before opening a handwritten letter. The box of letters one used to dig out to reread old letters is replaced by our email-inbox. Unfortunately old emails are often deleted after a period of time and therefore get lost in the digital orbit. The book „Romeo & Juliet“ includes the entire email correspondence between two young people during the year 2010. The book is bound with a Japanese binding. First one can only read the header of the email, including date, time and author. The content of the email is printed on the inner side of the folded pages so that the private content is not immediately readable. To read the emails one has to open the pages with a letter opener. Each email has its own page in the book. <br>
+The book serves as a link to the digital world by recording the digital correspondence in a tangible, persistent object. It visualizes the monthly email exchange, and thus represents a sketch of the email traffic in one year.</p>
+       
+       
+       </div>  
+       <script> 
+ 
+ 
+ $(function(){    
+    
+$("#wrapper img").click(function(){					      
+					        $('html, body').animate({
+                                scrollTop: $(this).parent().next().position().top -100
+                            }, 400)
+ 
+					    });
+    
+})
+
+   </script>
+</body>
+</html>

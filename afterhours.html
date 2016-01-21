@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Giulia Schelm - Afterhours</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+    <link rel="shortcut icon" href="favicon.ico">
+		<link type="text/css" rel="stylesheet" href="Css/style_wrapper-neu.css" media="all">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="Scripts/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.masonry.min.js"></script>
+		<script type="text/javascript" src="Scripts/infotext.js"></script>
+        
+        
+        
+	
+    <script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	
+	});
+
+});
+</script>
+    
+    
+    </head>
+	
+	<body>
+	
+		
+        <div id="header-schwarz">
+			<div id="leftcolumn">
+				<a class="cursor-p" href="index.html">giulia schelm	</a>                
+                </div>
+            <div id="middlecolumn">
+				<a class="cursor-p" href="contact.html">contact</a>			
+                </div>
+			<div id="middlecolumn2">
+				<a class="cursor-l" href="skelmir.html">previous project</a>		
+                </div>
+			<div id="rightcolumn">
+				<a class="cursor-r" href="arbeitskreis.html">next project</a>		
+                </div>
+		</div>
+        
+         <div id="back-top">
+    <a href="#backtop"><img src="navi/backtotop.png"></a>
+    </div>
+        
+        <div id="wrapper">
+			 	
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_70.jpg"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_03.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_04.jpg"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_72.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_07.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_08.jpg"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_14.jpg"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_15.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_16.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_knicken.gif"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_28.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_73.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/afterhours-schablone-n.gif"><span></span></li>
+				<li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_35.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_43.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_46.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_48.jpg"><span></span></li> 
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_schablone.gif"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_54.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_66.jpg"><span></span></li>
+                <li><img class="picture picturequer" src="Bilder/After hours/maerchenbuch_web_67.jpg"><span></span></li>
+                
+        </div>
+       
+       
+       <a class="infobutton">Info</a>
+       
+       <div class="infotext">
+       <a class="info-close"><img src="navi/schliessen.png"></a>
+       
+       <p>Three Fairy Tales from the Brothers Grimm - After Hours<br>
+       <br>
+Inspired by steganography - the art of concealing the existence of information within an seemingly innocuos carrier, this is a book of fairy tales that you don't quite expect. The encrypted meaning of this book will only reveal itself if you learn to read between the lines.  Hidden in the back cover is a code booklet with which one can decipher the real story of the book, a pornographic short story. Solving page for page requires a fit mind and a big appetite for riddles.<br>
+<br>
+In collaboration with <a href="http://www.lukaskueng.com/"target="_blank" a class="cursor-p"><i>Lukas Küng</i>.</a>
+
+</p>       
+</div>
+
+
+
+ <script> 
+ 
+ 
+ $(function(){    
+    
+$("#wrapper img").click(function(){					      
+					        $('html, body').animate({
+                                scrollTop: $(this).parent().next().position().top -100
+                            }, 400)
+ 
+					    });
+    
+})
+
+   </script>    
+       
+       
+</body>
+</html>

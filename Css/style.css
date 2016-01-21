@@ -1,0 +1,87 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+	font-size: 1em;
+	font-weight: normal;
+	color: #4e4e4e;
+	background: #fff;
+}
+
+a, a:link, a:visited {
+	color: #4e4e4e;
+	text-decoration: underline;
+	cursor: pointer;
+}
+a:hover, a:active {
+	color: #000;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 2em;
+	color: #4e4e4e;
+	cursor: default;
+}
+
+strong {
+	font-weight: bold;
+}
+
+hr {
+	width: 100%;
+	height: 1px;
+	margin: 5px 0 15px;
+	color: #d9d9d9;
+	background: #d9d9d9;
+	border: 0px;
+}
+
+img {
+	border: 0;
+}
+
+
+#header {
+	text-align: center;
+}
+
+#wrapper {
+	width: 80%;
+	margin: 15px auto;
+	
+}
+
+/* Masonry */
+.item {
+	float: left;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.item img {
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.item p {
+	margin: 5px 0 0;
+}
+
+.item.text {
+	text-align:left;
+	background: ;
+}
+
+.item.text p {
+	padding: 5px 15px 15px;
+}
+
+.col1 {
+	width: 300px;
+}
+.col2 {
+	width: 615px;
+}
